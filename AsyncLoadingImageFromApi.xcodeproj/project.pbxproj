@@ -13,6 +13,8 @@
 		DEFE914C235AED4A005A04EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFE914B235AED4A005A04EE /* Assets.xcassets */; };
 		DEFE914F235AED4A005A04EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFE914E235AED4A005A04EE /* Preview Assets.xcassets */; };
 		DEFE9152235AED4A005A04EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFE9150235AED4A005A04EE /* LaunchScreen.storyboard */; };
+		DEFE915A235AEDA0005A04EE /* ApiImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE9159235AEDA0005A04EE /* ApiImageView.swift */; };
+		DEFE915C235AEDB8005A04EE /* ApiImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE915B235AEDB8005A04EE /* ApiImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DEFE914E235AED4A005A04EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEFE9151235AED4A005A04EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEFE9153235AED4A005A04EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEFE9159235AEDA0005A04EE /* ApiImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiImageView.swift; sourceTree = "<group>"; };
+		DEFE915B235AEDB8005A04EE /* ApiImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				DEFE9150235AED4A005A04EE /* LaunchScreen.storyboard */,
 				DEFE9153235AED4A005A04EE /* Info.plist */,
 				DEFE914D235AED4A005A04EE /* Preview Content */,
+				DEFE9159235AEDA0005A04EE /* ApiImageView.swift */,
+				DEFE915B235AEDB8005A04EE /* ApiImage.swift */,
 			);
 			path = AsyncLoadingImageFromApi;
 			sourceTree = "<group>";
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEFE9146235AED48005A04EE /* AppDelegate.swift in Sources */,
+				DEFE915A235AEDA0005A04EE /* ApiImageView.swift in Sources */,
 				DEFE9148235AED48005A04EE /* SceneDelegate.swift in Sources */,
 				DEFE914A235AED48005A04EE /* ContentView.swift in Sources */,
+				DEFE915C235AEDB8005A04EE /* ApiImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
